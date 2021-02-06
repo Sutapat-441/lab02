@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color:black;
+        }
+        .headerPic{
+            background-image: url("https://cdn.dribbble.com/users/45039/screenshots/3154249/heartywhite.gif");
+            min-height: 1000px; 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container{
+            animation: first 15s;
+            margin-bottom: 100px;
+            color: white;
+            text-align: center;
+            font-size: 50px;
+            width:500px;
+	        height:100px;
+            border-radius: 70px;
+	        background:rgb(0, 3, 163);
+	        transition:width 2s;
+	        -webkit-transition:width 2s;
+        }
+        .container:hover
+        {
+	        width:1000px;
+        }
+        @keyframes first{
+            from {background:rgb(0, 119, 54);}
+	        to {background:rgb(0, 3, 163);}
+        }
+
+        h1{
+            font-size: 100px;
+            text-align: right;
+            display: block;
+            margin-right: 50px;
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            width: 2000px;
+            height: 100px;
+            color:rgb(0, 0, 0);
+            vertical-align: middle;
+            
+        }
+        img:hover{
+            width: 2000px;
+            border: 0;
+        }
+        .col-xl-3,.col-lg-3,.col-md-6,.col-sm-12{
+            margin-left: 50;
+            margin-bottom: 80px;
+        }
+        img{
+            align-items: center;
+            width: 350px;
+        }
+        footer{
+            margin: 50px;
+            color: azure;
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+            column-count: 3;
+            -webkit-column-gap: 40px; 
+            -moz-column-gap: 40px;
+            column-gap: 40px;
+            text-align: center;
+        }
+    </style>
+    <title>My Supervacation Gallery</title>
+</head>
+<body>
+    <div class="headerPic"></div>
+    <h1>My Gallery</h1>
+    <div class="ae"></div>
+    <div class="container">
+        <p>Photo gallery</p>
+    </div>
+    <div class="cir"></div>
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <img class="img-thumbnail" src="https://i.pinimg.com/564x/80/13/9e/80139e47c19478954b99464855a96f4b.jpg" title="img1">
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <img class="img-thumbnail" src="https://i.pinimg.com/564x/6b/3f/81/6b3f8199f097224aa1e2078d5656d968.jpg" title="img2">
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">    
+            <img class="img-thumbnail" src="https://i.pinimg.com/564x/13/88/7d/13887d8a0a35157b6718b810bcdf0bca.jpg" title="img3">
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">    
+            <img class="img-thumbnail" src="https://i.pinimg.com/564x/e2/45/90/e24590b2f62054d7d56f61d0e577161d.jpg" title="img4">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <img class="img-thumbnail" src="https://gatherjournal.com/wp-content/uploads/2016/05/GJ_S16_ISSUE_single_36-300x400.jpg" title="img5">
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <img class="img-thumbnail" src="https://i.pinimg.com/564x/4b/99/01/4b99017861f0ee6d0ef21cee0cb5b206.jpg" title="img6">
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">    
+            <img class="img-thumbnail" src="https://i.pinimg.com/564x/20/fa/53/20fa53821283a9cfa4c1692ca3ad50c9.jpg" title="img7">
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">    
+            <img class="img-thumbnail" src="https://i.pinimg.com/564x/a7/03/7a/a7037a1353447003e5752bb03bc6e291.jpg" title="img8s">
+        </div>
+    </div>
+    <footer>
+        <div> 05 : Feb : 2021 </div>
+        <div>Web Programming</div>
+        <div>Last edited  20 : 58 PM.</div>
+    </footer>
+</body>
+</html>
